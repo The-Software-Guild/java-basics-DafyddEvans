@@ -30,7 +30,7 @@ public class RockPaperScissors {
             while(!isValid) {
                 System.out.println("\nWould you like to play again? Y/N");
 
-                choice = myScanner.next().charAt(0);
+                choice = myScanner.nextLine().charAt(0);
                 choice = Character.toLowerCase(choice);
 
                 if (choice == 'y') {
